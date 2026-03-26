@@ -16,19 +16,28 @@ html {
     background-color: #f3f4f6;
     width: 50%;
     margin: 0 auto;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
+    padding: 0 15px;
 }
 
 .recipe {
     list-style: none;
     font-size: 30px;
     font-style: italic;
-    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
-.recipe-list {
-    margin-top: 100px;
+.recipe.steps {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.home-link {
+    font-size: 30px;
+    color: #9e6430;
+    display: block;
+    padding: 60px;
 }
 
 .recipe a:hover {
@@ -44,4 +53,9 @@ html {
     font-size: 58px;
     color: #9e6430;
     padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.title.main {
+    margin-bottom: 100px;
 }
